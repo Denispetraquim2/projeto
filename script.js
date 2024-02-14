@@ -13,4 +13,9 @@ function toggleMode() {
     // set tiver sem light mode, manter a imagem normal
     img.setAttribute("src", "./assets/assets/Avatar.png")
   }
+  if (html.classList.contains("light")) {
+    img.setAttribute("alt", "Foto de um nerdola de oculus")
+  } else {
+    img.setAttribute("alt", "foto de um nerdola com oculos de sol")
+  }
 }
